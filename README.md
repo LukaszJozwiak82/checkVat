@@ -2,7 +2,7 @@
 VAT library for Laravel 6
 
 # installation:
-composer require lukasz/gus
+composer require check-vat/check-vat
 
 # usage as parameter NIP number
 http://localhost/vat/1234567890
