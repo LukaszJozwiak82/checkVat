@@ -1,0 +1,72 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "05c7c1f76976883940a1a87d44c37a9e",
+    "packages": [
+        {
+            "name": "vat-api/vat-api",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnzuk/VatApi.git",
+                "reference": "15d96f935fe7977ff301f2479c465f88a10be713"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnzuk/VatApi/zipball/15d96f935fe7977ff301f2479c465f88a10be713",
+                "reference": "15d96f935fe7977ff301f2479c465f88a10be713",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.13",
+                "phpstan/phpstan-shim": "^0.10.3",
+                "phpunit/phpunit": "^7.4",
+                "squizlabs/php_codesniffer": "^3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "VatApi\\": "src/VatApi/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Janusz Żukowicz",
+                    "email": "janusz.zukowicz@gmail.com"
+                }
+            ],
+            "description": "Polish VAT API Library for PHP",
+            "keywords": [
+                "api",
+                "e-podatki",
+                "library",
+                "mf",
+                "nip",
+                "soap",
+                "tax",
+                "vat"
+            ],
+            "time": "2018-10-19T21:14:46+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^7.2"
+    },
+    "platform-dev": []
+}

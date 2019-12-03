@@ -1,0 +1,41 @@
+{
+    "name": "check-vat/check-vat",
+    "license": "MIT",
+    "description": "VAT library for Laravel 6",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Łukasz Jozwiak",
+            "email": "admin@admin.pl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Vat\\Vat\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vat\\Vat\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vat\\Vat\\VatServiceProvider"
+            ],
+            "dont-discover": []
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "vat-api/vat-api": "^1.0"
+    },
+    "require-dev": {
+
+    },
+    "scripts": {
+        "test": ".\\vendor\\bin\\phpunit"
+    }
+}
