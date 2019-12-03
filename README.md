@@ -1,4 +1,4 @@
-# gus
+# check VAT
 VAT library for Laravel 6
 
 # installation:
